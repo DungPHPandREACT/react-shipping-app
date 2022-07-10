@@ -1,0 +1,42 @@
+.container-product {
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-product__left {
+  display: flex;
+  align-items: center;
+}
+
+.product-info__label {
+  display: flex;
+  align-items: center;
+  margin-top: -4px;
+}
+
+p.product-label {
+  color: #020000;
+  font-weight: bold;
+}
+
+.css-621s9d-MuiTypography-root.product-quantity {
+  margin-left: 16px;
+  color: gray;
+}
+
+.product-info {
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.product-info__manage {
+  margin-top: -5px;
+  font-size: 0.75rem;
+}
+
+.product-image {
+  border: 1px #dbdbdb solid;
+}

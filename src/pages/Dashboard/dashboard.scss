@@ -1,0 +1,55 @@
+.dashboard {
+  &-welcome {
+    margin-bottom: 10px;
+  }
+
+  &-quick-actions {
+    .MuiGrid-container {
+      justify-content: space-around;
+    }
+    .quick-action {
+      padding: 8px;
+      height: 130px;
+    }
+
+    .quick-action .MuiTypography-subtitle2 {
+      margin: 2px 5px;
+    }
+
+    .quick-action .MuiTypography-body2 {
+      margin-left: 5px;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  &-banner__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  &-recommend__app {
+    padding: 16px;
+
+    & .MuiTypography-subtitle2 {
+      margin-left: 8px;
+    }
+
+    .MuiTypography-body2 {
+      margin-top: 16px;
+    }
+  }
+
+  .MuiTypography-h5.MuiCardHeader-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+.mt--1 {
+  margin-top: -8px;
+}
